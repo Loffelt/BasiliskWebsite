@@ -1,0 +1,9 @@
+nav.top-nav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav.top-nav div {
+    width: flex;
+}

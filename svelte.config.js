@@ -17,7 +17,7 @@ const config = {
 			fallback: null,
 		}),
 		paths: {
-            base: process.env.NODE_ENV === 'development' ? '' : '/BasiliskWebsite',
+            base: process.env.NODE_ENV === 'production' ? '/BasiliskWebsite' : '',
         }
 	}
 };

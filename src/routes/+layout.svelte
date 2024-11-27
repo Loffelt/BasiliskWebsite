@@ -1,24 +1,18 @@
 <script lang='ts'>
-    import {
-        Header,
-        HeaderUtilities,
-        HeaderGlobalAction,
-        SideNav,
-        SideNavItems,
-        SideNavLink,
-        Content,
-        Grid
-    } from 'carbon-components-svelte';
+    import { base } from '$app/paths';
+    import "carbon-components-svelte/css/g90.css";
 </script>
 
-<Header
-    platformName='Basilisk Engine'
->
+<nav class='top-nav'>
+    <div>
+        <a href={`${base}/`}>Basilisk Engine</a> 
+    </div>
+    <div>
+        <a href={`${base}/docs`}>Docs</a>
+    </div>
+    <div>
+        <a href={`${base}/how`}>How it Works</a>
+    </div>
+</nav>
 
-</Header>
-
-<Content>
-    <Grid>
-        <slot/>
-    </Grid>
-</Content>
+<slot />
