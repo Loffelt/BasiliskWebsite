@@ -1,0 +1,1 @@
+import"../chunks/disclose-version.Bg9kRutz.js";import"../chunks/legacy.CtaTdtmd.js";import{a as t,t as p}from"../chunks/template.C3ZuV4od.js";var r=p("<h1>Basilisk Engine</h1>");function m(a){var o=r();t(a,o)}export{m as component};
