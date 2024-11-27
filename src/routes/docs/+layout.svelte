@@ -4,6 +4,7 @@
 </script>
 
 <SideBar routes={[
+    
 ]} current_route={$page.url.pathname}/>
 
 <slot />

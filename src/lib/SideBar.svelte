@@ -15,3 +15,9 @@
         {/each}
     </ul>
 </div>
+
+<style>
+    .side_nav {
+        position: absolute;
+    }
+</style>
